@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "A Vue component for drag selecting elements",
   "main": "dist/vue-drag-select.js",
-  "repository": "git@github.com:stephan281094/vue-drag-select.git",
+  "repository": "https://github.com/DirectLink-AI/vue-drag-select",
   "author": "Stephan de Vries <stephan281094@gmail.com>",
   "license": "MIT",
   "scripts": {
