@@ -35,7 +35,7 @@
     data () {
       return {
         mouseDown: false,
-        concat: false,
+        concat: true, // Temporarily set to true
         startPoint: null,
         endPoint: null,
         selectedItems: []
