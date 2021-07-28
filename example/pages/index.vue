@@ -82,7 +82,7 @@ body {
 }
 
 .item.active {
-  background-color: rgb(0, 162, 255);
+  background-color: black;
   color: #fff;
 }
 </style>
