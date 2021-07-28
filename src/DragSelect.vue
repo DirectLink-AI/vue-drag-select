@@ -35,7 +35,7 @@
     data () {
       return {
         mouseDown: false,
-        concat: true, // Temporarily set to true
+        concat: false,
         startPoint: null,
         endPoint: null,
         selectedItems: []
@@ -105,7 +105,7 @@
         if (event.button === 2) return
 
         // Check if shift is down
-        // this.concat = event.shiftKey
+        this.concat = event.shiftKey
 
         // Register begin point
         this.mouseDown = true
@@ -148,7 +148,7 @@
 
         // Reset state
         this.mouseDown = false
-        // this.concat = false
+        this.concat = false
         this.startPoint = null
         this.endPoint = null
       },
